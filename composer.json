@@ -1,0 +1,16 @@
+{
+    "name": "we16201/php2",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Utils\\": "utils/"
+        }
+    },
+    "require": {
+        "illuminate/database": "^8.61",
+        "illuminate/events": "^8.61",
+        "jenssegers/blade": "^1.4",
+        "phroute/phroute": "^2.1"
+    }
+}
+/product -> controller function
