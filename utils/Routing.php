@@ -24,7 +24,11 @@ class Routing{
         
 
 
-        $router->get('/', [HomeController::class, 'index']);
+        $router->get('/home', [HomeController::class, 'index']);
+        $router->post('/', [HomeController::class, 'UpdateData']);
+        $router->put('/', [HomeController::class, 'UpdateData1']);
+        $router->patch('/', [HomeController::class, 'UpdateData2']);
+        $router->delete('/', [HomeController::class, 'DeleteData']);
 
         $router->get('about', [HomeController::class,  'about']);
         $router->get('login', [LoginController::class,  'login']);

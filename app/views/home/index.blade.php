@@ -14,6 +14,7 @@
         </th>
     </thead>
     <tbody>
+
         @foreach($users as $u)
         <tr>
             <td>{{$u->id}}</td>

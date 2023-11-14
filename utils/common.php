@@ -1,6 +1,6 @@
 <?php
 
-const BASE_URL = "http://localhost/we16201-php2/mvc2/";
+const BASE_URL = "http://study.com/";
 const PUBLIC_PATH = BASE_URL . "public/";
 const ADMIN_ASSET_PATH = PUBLIC_PATH . 'admin-assets/';
 
